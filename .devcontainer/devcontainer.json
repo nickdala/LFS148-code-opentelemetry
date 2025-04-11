@@ -1,6 +1,6 @@
 {
 	"name": "otel-getting-started",
-	"workspaceFolder": "/workspaces/LFS148-code/exercises",
+	"workspaceFolder": "/workspaces/LFS148-code-opentelemetry/exercises",
 	"image": "ghcr.io/lftraining/lfs148-code-application:latest",
 	"overrideCommand": false,
 	"runArgs": [
@@ -17,7 +17,7 @@
 	],
 	"containerEnv": {
 		"SHELL": "/bin/bash",
-		"EXERCISES": "/workspaces/LFS148-code/exercises"
+		"EXERCISES": "/workspaces/LFS148-code-opentelemetry/exercises"
 	},
 	"portsAttributes": {
 		"5000": {
